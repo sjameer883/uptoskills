@@ -96,8 +96,9 @@ nav .logo img {
 /* Mobile Responsiveness for Logo */
 @media (max-width: 768px) {
     nav .logo img {
-        max-height: 40px; /* Adjust the logo size for mobile */
+        max-height:50px; /* Adjust the logo size for mobile */
     }
+
 }
 
 
@@ -371,7 +372,7 @@ nav ul li:hover::after {
     background: url('https://source.unsplash.com/1600x900/?education,conference') no-repeat center center/cover;
     color: white;
     text-align: center;
-    padding: 100px 20px;
+    padding: 100px 10px;
 }
 
 
@@ -581,14 +582,14 @@ section h2 {
 @media (max-width: 768px) {
 
     .hero-image {
-        height: 300px; /* Adjust hero image height on mobile */
+        height: 800px; /* Adjust hero image height on mobile */
     }
 
     .hero-overlay {
         bottom: 15px;
         left: 15px;
         right: 15px; /* Adjust right margin for mobile */
-        max-width: 90%; /* Limit width on mobile */
+        max-width: 50%; /* Limit width on mobile */
     }
 
     .hero-overlay h1 {
@@ -596,11 +597,12 @@ section h2 {
     }
 
     .hero-overlay p {
-        font-size: 0.9rem; /* Reduce font size for paragraph */
+        font-size: 0.1rem; /* Reduce font size for paragraph */
     }
 
     .hero-overlay .btn {
         padding: 8px 16px; /* Smaller button on mobile */
+        font-size: 1px;
         font-size: 0.9rem; /* Adjust button text size */
     }
 }
